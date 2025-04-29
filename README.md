@@ -66,3 +66,13 @@ consumption
 34	3	3455555.00	"kWh"	"2025-01-01 02:00:00+02"
 35	3	459999.00	"kWh"	"2025-02-01 02:00:00+02"
 36	3	57353.00	"kWh"	"2025-03-01 02:00:00+02"
+
+
+Frontend-URLs in Browser: 
+
+http://localhost:5173/Christina/electric/1  (for customer 1, that is in my case "Chris")
+http://localhost:5173/Christina/electric/2  (for customer 2, that is in my case "Tina")
+
+Backend-URLs in Browser (for tests only, implementation can be later removed):
+http://localhost:8080/Christina/CustConsum (there you can see the complete Backend-JSON out of the PostgreSQL database)
+http://localhost:8080/Christina/CustConsum/hello (sends a greeting message to check, if the Backend is alive)
